@@ -35,7 +35,6 @@
 </template>
 
 <script>
-
 import PokemonView from "../views/PokemonView.vue"
 export default {
   name: 'HomeView',
