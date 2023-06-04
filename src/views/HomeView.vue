@@ -6,7 +6,11 @@
       <div class="b d-flex justify-content-center align-items-center">
         <span class="">
 
-          <div class="c"></div>
+          <div class="c d-flex justify-content-center align-items-center">
+
+            <PokemonView />
+
+          </div>
 
           <div class="row justify-content-between">
 
@@ -32,10 +36,11 @@
 
 <script>
 
+import PokemonView from "../views/PokemonView.vue"
 export default {
   name: 'HomeView',
   components: {
-
+    PokemonView
   }
 }
 </script>
